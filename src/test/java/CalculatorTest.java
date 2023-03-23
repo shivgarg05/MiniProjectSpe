@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
-public class Calculatortest
+public class CalculatorTest
 {
 	private static final double DELTA = 1e-15;
 	Calculator calculator = new Calculator();

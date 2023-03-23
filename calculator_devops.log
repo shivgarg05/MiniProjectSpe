@@ -2,3 +2,5 @@
 23/Mar/2023:15:18:03 432 [App.java] [INFO] App Executing naturalLog function!
 23/Mar/2023:15:18:03 433 [App.java] [INFO] App Executing squareRoot function!
 23/Mar/2023:15:18:03 434 [App.java] [INFO] App Executing Power function!
+23/Mar/2023:16:20:32 121 [Calculator.java] [INFO] calculator.Calculator [SQUARE ROOT] - 2.34
+23/Mar/2023:16:20:32 130 [Calculator.java] [INFO] calculator.Calculator [RESULT - SQUARE ROOT] - 1.5297058540778354

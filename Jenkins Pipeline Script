@@ -18,7 +18,7 @@ pipeline{
         stage('Step 3: Build Docker Image'){ 
             steps {
                 script {
-                    docker_image = docker.build "vaishnavi2902/calculator_devops:latest"
+                    docker_image = docker.build "shivyanshgarg05/spe-mini-project:latest"
                 }
             }
         }

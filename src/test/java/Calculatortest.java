@@ -6,7 +6,7 @@ import static org.junit.Assert.assertNotEquals;
 
 public class Calculatortest
 {
-	private static final double DELTA = 1e-15;gi
+	private static final double DELTA = 1e-15;
 	Calculator calculator = new Calculator();
 
 	@Test

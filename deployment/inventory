@@ -1,1 +1,5 @@
+[ubuntu22]
 localhost ansible_user=shivyansh
+
+[ubuntu22:vars]
+ansible_connection=local

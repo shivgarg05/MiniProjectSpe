@@ -33,10 +33,11 @@ pipeline{
         }
         stage('Step 5: Ansible Deployment'){
             steps{
+                sh 'pip install docker-py'
                 ansiblePlaybook becomeUser: null, 
                 colorized: true,
                 credentialsId: 'docker',
-                installation: 'Ansible' 
+                installation: 'Ansible',
                 disableHostKeyChecking: true, 
                 inventory: 'deployment/inventory', 
                 playbook: 'deployment/deploy.yml', 

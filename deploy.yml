@@ -6,5 +6,5 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: vaishnavi2902/calculator_devops:latest
+        name: shivyanshgarg05/spe-mini-project:latest
         source: pull
